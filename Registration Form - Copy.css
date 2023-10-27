@@ -1,0 +1,65 @@
+body{
+background-color:#56295c;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+margin:1.5% 2%;
+}
+
+.c1{
+margin:auto;
+padding-top:0.5%;
+background-color:white;
+width:35%;
+padding-bottom:2%;
+}
+
+.c2{
+margin-top:8%;
+margin-bottom:5%;
+border-bottom:1px dotted grey;
+}
+
+h2{
+text-align:center;
+text-transform:uppercase;
+}
+
+.info{
+display:block;
+}
+
+.iinput{
+border:none;
+border-bottom:1px solid grey;
+padding:5px 3px;
+}
+
+.check{
+display:block;
+}
+
+.check:hover{
+background-color:grey;
+}
+
+.submitbtn{
+display:flex;
+justify-content:center;
+}
+
+.submitbtn input{
+border:none;
+width:120px;
+height:30px;
+background-color:black;
+color:white;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.submitbtn input:hover{
+background-color:grey;
+}
